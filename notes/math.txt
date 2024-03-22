@@ -1,0 +1,18 @@
+// @use "sass:math";
+
+// @debug "Testing Debug SASS";
+// @debug 20%*5;
+// @debug 35px - 30px;
+// @debug math.max(10px,4px,12px);
+// @debug math.ceil(4.2);
+// @debug math.floor(4.2);
+// @debug math.abs(-10px);
+// @debug math.pow(10,2);
+// @debug math.is-unitless(100px);
+// @debug math.unit(100px);
+// @debug math.compatible(2px,1px);
+// @debug math.compatible(2px,1rem);
+// @debug math.compatible(2cm,1mm);
+// @debug math.div(25px,2px);
+// @debug math.random(10);
+

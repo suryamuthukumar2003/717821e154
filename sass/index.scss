@@ -1,0 +1,33 @@
+@import 'variable';
+@import 'button';
+@import 'colors';
+body{
+    font-family: $font-family;
+    font-size: $base-font-size;
+}
+h2{
+    color:map-get($colors, "primary");
+    font-size:20px+5;  
+}
+
+// Nested Rules
+
+nav{
+    background-color: #222;
+    padding: 10px;
+    a{
+        text-decoration: none;
+        display: inline-block;
+        padding:5px 10px;
+        color: #fff;
+    }
+}
+p{
+    line-height: 30px;
+    text-indent: 30px;
+    font-size:$font-size-md;
+    a{
+        text-decoration: none;
+        color:tomato
+    }
+}

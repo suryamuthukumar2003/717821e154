@@ -1,0 +1,11 @@
+/*
+@debug map-get($colors, "primary");
+@debug map-has-key($colors,"danger");
+@debug map-has-key($colors,"secondary");
+@debug map-remove($colors,"info");
+@debug map-merge(
+    $colors, (
+    "secondary":#6610f2, 
+    )
+);
+*/
