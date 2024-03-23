@@ -20,3 +20,27 @@ $bg-danger-color:#dc3545;
     background-color: $bg-danger-color;
     color: #fff;
 }
+
+@mixin button($bg-color,$text-color){
+    background-color:$bg-color;
+    color: $text-color;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding:10px;
+    border:none;
+    cursor: pointer;
+    &:hover{
+        background-color: darken($bg-color,10%);
+    }
+}
+.button-primary{
+    @include button(#3498db,#fff);
+}
+.button-secondary{
+    @include button(#e77613,#fff);
+}
+.button-tertiary{
+    @include button(#fff,#333);
+    border:1px solid #333;
+}

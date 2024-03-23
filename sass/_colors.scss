@@ -27,6 +27,15 @@ $colors:(
             background-color:lighten($val,$i * 10);
         }
     }
+
+    @for $i from 1 through 3{
+        .text-#{$key}-dark-#{$i}{
+            color:darken($val,$i * 10);
+        }
+        .bg-#{$key}-dark-#{$i}{
+            background-color:darken($val,$i * 10);
+        }
+    }
 }
 
 .text-white{
